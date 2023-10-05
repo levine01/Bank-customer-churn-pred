@@ -19,9 +19,9 @@ The aim of this project to analyze the bank customer's demographics and financia
 
 ## Specific Objectives
 
-- i. Choose and train appropriate  classification models.
-- ii. Evaluate the potential risks associated with customer churn.
-- iii Provide tailored investment recommendations.
+-  i. Choose and train appropriate  classification models.
+-  ii. Evaluate the potential risks associated with customer churn.
+-  iii Provide tailored investment recommendations.
 
 ## Experimental Design
 
@@ -79,4 +79,14 @@ EstimatedSalary: Estimated salary of the customer in Dollars
 Exited: Binary flag 1 if the customer closed account with bank and 0 if the customer is retained
 
 ## Conclusion
+
+1. Random Forest model is more accurate than Decision Tree Classifier since it has a higher accuracy. We are confident in choosing this model.
+
+2. In the future, we should analyze various reasons to why customer churn to answer investor questions. However, with this information that we have , we strongly advise in putting the recommendations in action.
+
+## Recommendation
+
+1. Implement personalized retention strategies based on the model's predictions for customers at risk of churning, leveraging insights into churn factors to enhance customer satisfaction and loyalty through tailored offerings and incentives
+2. Engage proactively with high-churn-risk customers through timely offers and support, while maintaining a feedback loop to gather insights from churned customers for service enhancements, facilitating better customer experience and informed decision-making.
+3. Enhance customer satisfaction and reduce churn by utilizing model insights to deliver personalized experiences, tailoring products and services based on individual preferences and needs, thereby fostering a stronger customer relationship.
 
